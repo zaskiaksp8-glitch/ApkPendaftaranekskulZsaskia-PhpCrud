@@ -1,0 +1,92 @@
+apkpendaftaranekskulzsaskia/
+│
+├── index.php                 # halaman homepage selamat datang (pakai navbar yang ada menu loginuser dan loginsiswa)
+│
+├── assets/
+│   ├── js/
+│   ├── css/
+│   ├── plugins/
+│   └── images/
+│       ├── slider/
+│       ├── ekskul/
+│       ├── siswa/
+│       └── user/
+│
+├── views/
+│   │
+│   ├── component/ 
+│   │   ├── tamu/
+│   │   │   ├── navbar.php    => pakai navbar yang ada menu loginuser dan loginsiswa
+│   │   │   └── footer.php
+│   │   ├── user/
+│   │   │   ├── navbar.php    => pakai navbar yang ada foto, role, namauser, menu logoutnya
+│   │   │   ├── sidebar.php   => sesuai usecase seluruh fitur user bisa diakses
+│   │   │   └── footer.php
+│   │   └── siswa/
+│   │       ├── navbar.php    => pakai navbar yang ada foto, role, namasiswa, menu logoutnya
+│   │       ├── sidebar.php   => berisi menu khusus siswa (dashboard, profil, pendaftaran)
+│   │       └── footer.php
+│   │
+│   ├── user/  ← (USECASE USER)
+│   │   ├── dashboard/
+│   │   │   └── dashboard.php       (dashboard untuk role user)
+│   │   ├── user/
+│   │   │   ├── index.php
+│   │   │   ├── create.php
+│   │   │   ├── edit.php
+│   │   │   └── show.php
+│   │   ├── siswa/
+│   │   │   ├── index.php
+│   │   │   ├── create.php
+│   │   │   ├── edit.php
+│   │   │   └── show.php
+│   │   ├── ekskul/
+│   │   │   ├── index.php
+│   │   │   ├── create.php
+│   │   │   ├── edit.php
+│   │   │   └── show.php
+│   │   ├── pendaftaran/
+│   │   │   ├── index.php
+│   │   │   ├── create.php
+│   │   │   ├── edit.php
+│   │   │   └── show.php
+│   │   └── laporan/
+│   │       ├── laporanharian.php
+│   │       ├── cetaklaporanharian.php
+│   │       ├── laporanbulanan.php
+│   │       ├── cetaklaporanbulanan.php
+│   │       ├── laporantahunan.php
+│   │       └── cetaklaporantahunan.php
+│   │
+│   ├── siswa/  ← (USECASE SISWA)
+│   │   ├── dashboardsiswa.php      (dashboard semantic dinamis modern minimalis dan responsif untuk siswa)
+│   │   ├── profil.php              (profil siswa yang diambil dari tabel siswa)
+│   │   └── riwayatpendaftaran.php  (halaman tampil riwayat pendaftaran ekskul)
+│   │
+│   ├── landing/  ← (PUBLIC)
+│   │   ├── home.php            (halaman default paling depan berisi seluruh konten standar homepage)
+│   │   ├── daftarekskul.php    (halaman default paling depan berisi seluruh daftar ekskul)
+│   │   ├── detilekskul.php     (tampil ketika diklik baca selengkapnya)
+│   │   ├── tentang.php         (halaman menu tentang)
+│   │   ├── kontak.php          (halaman menu kontak)
+│   │   └── daftarisi.php       (halaman menu daftarisi)
+│   │
+│   ├── auth/   
+│   │   ├── logout.php
+│   │   ├── loginuser.php
+│   │   ├── loginsiswa.php
+│   │   └── registersiswa.php   => masuknya dari halaman loginsiswa
+│   │
+│   └── errors/  ← (GLOBAL ERROR HANDLER)
+│       ├── 404.php
+│       ├── 403.php
+│       └── 500.php
+│
+└── proses/
+    ├── koneksi.php
+    ├── session.php
+    ├── prosesuser.php
+    ├── prosessiswa.php
+    ├── prosesekskul.php
+    ├── prosespendaftaran.php
+    └── proseslaporan.php
