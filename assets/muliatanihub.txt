@@ -1,0 +1,58 @@
+muliatanihub/
+│
+├── index.html
+├── assets/
+│   ├── css/
+│   ├── js/
+│   └── img/
+│
+├── docs/
+├── database/
+│
+├── pages/
+│   ├── landing/
+│   │   ├── beranda.html
+│   │   ├── kategori.html
+│   │   ├── produk.html
+│   │   ├── detailproduk.html
+│   │   ├── faq.html
+│   │   ├── kontak.html
+│   │   ├── legalitas.html
+│   │   ├── loginpelanggan.html
+│   │   ├── registerpelanggan.html
+│   │   └── loginuser.html
+│   │
+│   ├── admin/
+│   │   ├── dashboarduser.html
+│   │   ├── kelolauser.html
+│   │   ├── kelolapelanggan.html
+│   │   ├── kelolakategori.html
+│   │   ├── kelolaproduk.html
+│   │   ├── kelolapenjualan.html
+│   │   ├── keloladiskon.html
+│   │   └── laporan.html
+│   │
+│   └── pelanggan/
+│       ├── dashboardpelanggan.html
+│       └── riwayatpembelian.html
+
+saya ingin membuat website dengan hanya html saja menggunakan strukur seperti treediagram diatas, nah sekarang tolong buatkan bagian landing dulu dengan kretiria sbb:
+-menggunakan libarary css dan js local
+-usahakan desaian layout responsive semua defive (gadget)
+-beranda adalah index
+-semua menu di navbar adalah semua halaman file landing diatas kecuali detailproduk.html (halaman yang muncul Ketika klik selengkapnya)
+-jika sudah paham tolong buat index.html dan semua file di landing berikut ini dengan menggunakan css dan js dari asssets:
+
+dan lanjutkan :
+├── index.html
+│   ├── landing/
+│   │   ├── beranda.html
+│   │   ├── kategori.html
+│   │   ├── produk.html
+│   │   ├── detailproduk.html
+│   │   ├── faq.html
+│   │   ├── kontak.html
+│   │   ├── legalitas.html
+│   │   ├── loginpelanggan.html
+│   │   ├── registerpelanggan.html
+│   │   └── loginuser.html
