@@ -9,7 +9,7 @@ apkpendaftaranekskulzsaskia/
 │   └── images/
 │       ├── slider/
 │       ├── ekskul/
-│       ├── siswa/
+│       ├── siswa/ 
 │       └── user/
 │
 ├── views/
@@ -85,8 +85,9 @@ apkpendaftaranekskulzsaskia/
 └── proses/
     ├── koneksi.php
     ├── session.php
+    ├── prosesdashboard.php
     ├── prosesuser.php
     ├── prosessiswa.php
-    ├── prosesekskul.php
+    ├── prosesekskul.php 
     ├── prosespendaftaran.php
     └── proseslaporan.php
